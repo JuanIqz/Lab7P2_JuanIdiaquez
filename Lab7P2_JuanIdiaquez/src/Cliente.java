@@ -67,6 +67,6 @@ public class Cliente {
         return "Cliente{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Profesion=" + Profesion + ", CantCCom=" + CantCCom + ", SueldoD=" + SueldoD + '}';
     }
     
-    
+
             
 }

@@ -16,8 +16,8 @@ public class Vehiculo {
     String Marca;
     Color Color; 
     String Modelo;
-    Date Año;
-    String Precio;
+    String Año;
+    double Precio;
     int Id; 
 
     public String getMarca() {
@@ -32,11 +32,11 @@ public class Vehiculo {
         return Modelo;
     }
 
-    public Date getAño() {
+    public String getAño() {
         return Año;
     }
 
-    public String getPrecio() {
+    public double getPrecio() {
         return Precio;
     }
 
@@ -56,11 +56,11 @@ public class Vehiculo {
         this.Modelo = Modelo;
     }
 
-    public void setAño(Date Año) {
+    public void setAño(String Año) {
         this.Año = Año;
     }
 
-    public void setPrecio(String Precio) {
+    public void setPrecio(double Precio) {
         this.Precio = Precio;
     }
 
@@ -68,7 +68,7 @@ public class Vehiculo {
         this.Id = Id;
     }
 
-    public Vehiculo(String Marca, Color Color, String Modelo, Date Año, String Precio, int Id) {
+    public Vehiculo(String Marca, Color Color, String Modelo, String Año, double Precio, int Id) {
         this.Marca = Marca;
         this.Color = Color;
         this.Modelo = Modelo;
